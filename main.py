@@ -1,5 +1,6 @@
 from person import Residents    
-        
+
+
 if __name__=='__main__':
     import matplotlib.pyplot as plt
     import numpy as np
