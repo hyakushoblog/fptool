@@ -9,8 +9,9 @@ Welcome to finantial planning tool's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-	     main
 
+   main
+   tax
 
 Indices and tables
 ==================
