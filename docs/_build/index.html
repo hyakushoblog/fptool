@@ -1,0 +1,408 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>finantial planning tool 0.0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home"> finantial planning tool
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-main">main module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-tax">tax module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#income">所得税(Income)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id11">住民税</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">finantial planning tool</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>finantial planning tool 0.0.1 documentation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="welcome-to-finantial-planning-tool-s-documentation">
+<h1>Welcome to finantial planning tool’s documentation!<a class="headerlink" href="#welcome-to-finantial-planning-tool-s-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+<span id="document-main"></span><section id="module-main">
+<span id="main-module"></span><h2>main module<a class="headerlink" href="#module-main" title="Permalink to this headline">¶</a></h2>
+</section>
+<span id="document-tax"></span><section id="tax-module">
+<h2>tax module<a class="headerlink" href="#tax-module" title="Permalink to this headline">¶</a></h2>
+<section id="income">
+<h3>所得税(Income)<a class="headerlink" href="#income" title="Permalink to this headline">¶</a></h3>
+<p>所得税は所得に対して課税される税。課税額は課税標準と呼ぶ金額に対して一定の税
+率をかけて計算される。</p>
+<p><code class="docutils literal notranslate"><span class="pre">所得税</span> <span class="pre">=</span> <span class="pre">課税標準</span> <span class="pre">*</span> <span class="pre">税率</span></code></p>
+<p>この課税標準は、全所得額から経費や控除などを差し引いた額のことであり、単純な
+所得の合計金額ではない。</p>
+<p><code class="docutils literal notranslate"><span class="pre">課税標準</span> <span class="pre">=</span> <span class="pre">全所得</span> <span class="pre">-</span> <span class="pre">経費や控除</span></code></p>
+<p>所得は10種類存在し、それぞれについての課税標準の計算を述べる。</p>
+<section id="id1">
+<h4>配当所得(総合課税)<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+</section>
+<section id="id2">
+<h4>不動産所得(総合課税)<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
+</section>
+<section id="id3">
+<h4>事業所得(総合課税)<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+</section>
+<section id="id4">
+<h4>給与所得(総合課税)<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+</section>
+<section id="id5">
+<h4>一時所得(総合課税)<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
+</section>
+<section id="id6">
+<h4>雑所得(総合課税)<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
+</section>
+<section id="id7">
+<h4>利子所得(分離課税)<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h4>
+<p>[1] <a class="reference external" href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1310.htm">https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1310.htm</a></p>
+</section>
+<section id="id8">
+<h4>退職所得(分離課税)<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h4>
+</section>
+<section id="id9">
+<h4>山林所得(分離課税)<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h4>
+</section>
+<section id="id10">
+<h4>譲渡所得(分離課税)<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h4>
+</section>
+</section>
+<section id="id11">
+<h3>住民税<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<p>まだ実装していない。</p>
+<span class="target" id="module-tax"></span><dl class="py class">
+<dt class="sig sig-object py" id="tax.Income">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">tax.</span></span><span class="sig-name descname"><span class="pre">Income</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">employmentincome</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">realpropertyincome</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sposeincome</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">hudosankeihi</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">aoirokojo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tax.Income" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>所得税</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="tax.Income.employmentincom">
+<span class="sig-name descname"><span class="pre">employmentincom</span></span><a class="headerlink" href="#tax.Income.employmentincom" title="Permalink to this definition">¶</a></dt>
+<dd><p>給与所得</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tax.Income.basic_deduction">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">basic_deduction</span></span><a class="headerlink" href="#tax.Income.basic_deduction" title="Permalink to this definition">¶</a></dt>
+<dd><p>基礎控除額</p>
+<p>[1] <a class="reference external" href="https://www.nta.go.jp/publication/pamph/koho/kurashi/html/01_1.htm#sanshiki02">https://www.nta.go.jp/publication/pamph/koho/kurashi/html/01_1.htm#sanshiki02</a></p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tax.Income.casualtyloss_deduction">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">casualtyloss_deduction</span></span><a class="headerlink" href="#tax.Income.casualtyloss_deduction" title="Permalink to this definition">¶</a></dt>
+<dd><p>雑損控除</p>
+<p>[1] <a class="reference external" href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm">https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm</a></p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tax.Income.dependent_deduction">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">dependent_deduction</span></span><a class="headerlink" href="#tax.Income.dependent_deduction" title="Permalink to this definition">¶</a></dt>
+<dd><p>扶養者控除</p>
+<p>[1] <a class="reference external" href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180.htm">https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180.htm</a></p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tax.Income.donation_deduction">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">donation_deduction</span></span><a class="headerlink" href="#tax.Income.donation_deduction" title="Permalink to this definition">¶</a></dt>
+<dd><p>寄付控除</p>
+<p>[1] <a class="reference external" href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1150.htm">https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1150.htm</a></p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tax.Income.earthquakeinsurancepremium_deduction">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">earthquakeinsurancepremium_deduction</span></span><a class="headerlink" href="#tax.Income.earthquakeinsurancepremium_deduction" title="Permalink to this definition">¶</a></dt>
+<dd><p>地震保険控除</p>
+<p>[1] <a class="reference external" href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1145.htm">https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1145.htm</a></p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tax.Income.employmentincome_deduction">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">employmentincome_deduction</span></span><a class="headerlink" href="#tax.Income.employmentincome_deduction" title="Permalink to this definition">¶</a></dt>
+<dd><p>給与所得控除額
+給与所得から控除を差し引いた額</p>
+<p>[1] <a class="reference external" href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1410.htm">https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1410.htm</a></p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tax.Income.get_tax">
+<span class="sig-name descname"><span class="pre">get_tax</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ratio</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tax.Income.get_tax" title="Permalink to this definition">¶</a></dt>
+<dd><p>課税標準をもとに所得税を得る</p>
+<p># <a class="reference external" href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm">https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm</a></p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tax.Income.handicapped_deduction">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">handicapped_deduction</span></span><a class="headerlink" href="#tax.Income.handicapped_deduction" title="Permalink to this definition">¶</a></dt>
+<dd><p>障害者控除</p>
+<p>[1] <a class="reference external" href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1160.htm">https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1160.htm</a></p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tax.Income.lifeinsurancepremium_deduction">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">lifeinsurancepremium_deduction</span></span><a class="headerlink" href="#tax.Income.lifeinsurancepremium_deduction" title="Permalink to this definition">¶</a></dt>
+<dd><p>生命保険控除</p>
+<p>[1] <a class="reference external" href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm">https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm</a></p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tax.Income.medical_deduction">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">medical_deduction</span></span><a class="headerlink" href="#tax.Income.medical_deduction" title="Permalink to this definition">¶</a></dt>
+<dd><p>医療費控除</p>
+<p>[1] <a class="reference external" href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1120.htm">https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1120.htm</a></p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tax.Income.net_income">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">net_income</span></span><a class="headerlink" href="#tax.Income.net_income" title="Permalink to this definition">¶</a></dt>
+<dd><p>合計所得額
+すべての所得を合計した額。控除前の額。</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tax.Income.realpropertyincome_deduction">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">realpropertyincome_deduction</span></span><a class="headerlink" href="#tax.Income.realpropertyincome_deduction" title="Permalink to this definition">¶</a></dt>
+<dd><p>不動産所得
+総収入額から必要経費と青色特別控除額をひいたもの。</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tax.Income.smallbusiness_deduction">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">smallbusiness_deduction</span></span><a class="headerlink" href="#tax.Income.smallbusiness_deduction" title="Permalink to this definition">¶</a></dt>
+<dd><p>小規模企業共済等掛金控除</p>
+<p>[1] <a class="reference external" href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1135.htm">https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1135.htm</a></p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tax.Income.socialinsurancepremium_deduction">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">socialinsurancepremium_deduction</span></span><a class="headerlink" href="#tax.Income.socialinsurancepremium_deduction" title="Permalink to this definition">¶</a></dt>
+<dd><p>社会保険料控除</p>
+<p>[1] <a class="reference external" href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm">https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm</a></p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tax.Income.spose_deduction">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">spose_deduction</span></span><a class="headerlink" href="#tax.Income.spose_deduction" title="Permalink to this definition">¶</a></dt>
+<dd><p>配偶者控除もしくは配偶者特別控除</p>
+<p>[1] <a class="reference external" href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1195.htm">https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1195.htm</a></p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tax.Income.tax_base">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">tax_base</span></span><a class="headerlink" href="#tax.Income.tax_base" title="Permalink to this definition">¶</a></dt>
+<dd><p>課税標準
+控除後の所得額。税金の課税対象となる所得の合計額。</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tax.Income.widow_deduction">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">widow_deduction</span></span><a class="headerlink" href="#tax.Income.widow_deduction" title="Permalink to this definition">¶</a></dt>
+<dd><p>寡婦控除</p>
+<p>[1] <a class="reference external" href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1170.htm">https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1170.htm</a></p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tax.Income.workingstudent_deduction">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">workingstudent_deduction</span></span><a class="headerlink" href="#tax.Income.workingstudent_deduction" title="Permalink to this definition">¶</a></dt>
+<dd><p>勤労学生控除</p>
+<p>[1] <a class="reference external" href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1175.htm">https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1175.htm</a></p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+</section>
+</div>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Hyakusho Blog.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
