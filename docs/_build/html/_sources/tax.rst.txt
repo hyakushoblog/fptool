@@ -1,0 +1,7 @@
+tax module
+==========
+
+.. automodule:: tax
+   :members:
+   :undoc-members:
+   :show-inheritance:
