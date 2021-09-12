@@ -14,16 +14,16 @@ if __name__=='__main__':
     
     # 自分(夫)と妻を定義
     wife = Residents(spose=False)
-    me = Residents(spose=False) # !!
+    me = Residents(spose=True)
 
     # 収入所得のリスト    
     employmentincome_me = np.arange(0,2000,10) #本人の収入所得額(控除前)
-    employmentincome_me = np.arange(0,1000000,10) #本人の収入所得額(控除前)    
     income_spose = np.linspace(103,202,2).astype(int)#配偶者の所得合計額(控除前)
-    #income_spose = np.linspace(0,202,1).astype(int)#配偶者の所得合計額(控除前)
+
+    # 所得税を計算する関数をベクトライズする
     vect_get_incometax = np.vectorize(me.get_incometax)
     
-    # プロット
+    # プロットする
     ratio = False
     tedori = True
     fig,ax = plt.subplots(1,1,figsize=(7,5))
