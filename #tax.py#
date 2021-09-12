@@ -388,6 +388,6 @@ class Income():
         
         if ratio:
             tax = float(tax)/float(self.net_income)
-            tax *= 100
+            tax *= 100            
             
         return tax    
